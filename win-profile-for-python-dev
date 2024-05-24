@@ -1,0 +1,7 @@
+function myenv {
+    python -c "import sys; print(sys.prefix)"
+}
+
+function myenvact {
+    .\venv\Scripts\activate
+}
